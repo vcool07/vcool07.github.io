@@ -79,7 +79,10 @@ ul {
 
 .contact ul {
     margin-top: -1rem;
-    
+   -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;   
 }
 
 .contact li {
