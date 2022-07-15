@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+ 
+}
+
+html {
+    color: #333;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.5;
+    
+}
+
+body {
+  padding: 2rem 2.5rem;
+ 
+    
+}
+
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 0.75rem 0;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color:  #FF6663;
+}
+
+p {
+  line-height: 1.5;
+}
+
+section + section {
+  margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 99px;
+  width: 15rem;
+  height: 15rem;
+}
+
+.profile p {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.contact ul {
+    margin-top: -1rem;
+    
+}
+
+.contact li {
+  text-align: left;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #333;
+  border-bottom: 1px solid #333;
+  font-size: 0.8rem;
+}
+
+.skills > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.timeline .event + .event {
+  padding-top: 1rem;
+}
+
+.timeline .event {
+  display: grid;
+  grid-template-columns: 5ch 1fr;
+}
+
+.timeline .content {
+  border-left: 1px solid #888;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.content > h3 + p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 5rem;
+  background-color: white;
+  padding: 5rem;
+  max-width: 1300px;
+  margin: auto;
+}
+
+ .nes-pointer {
+ cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0,pointer
+}
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg,#FDFD97, #FEB144, #FF6663, #CC99C9, #9EC1CF, #9EE09E);
+    background-size: 1000% 1000%;
+    animation: gradient 25s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
